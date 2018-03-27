@@ -322,6 +322,12 @@ FALL   : 'fall'   's'?;
 AUTUMN : 'autumn' 's'?;
 SPRING : 'spring' 's'?;
 SUMMER : 'summer' 's'?;
+
+// ********** foreign language support *********
+
+CJK_YEAR  : '\u5E74' | '\uB144' ;
+CJK_MONTH : '\u6708' | '\uC6D4' ;
+CJK_DAY   : '\u65E5' | '\uC77C' ;
   
 UNKNOWN
   : UNKNOWN_CHAR
